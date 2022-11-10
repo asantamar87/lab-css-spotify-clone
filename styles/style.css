@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+
+/* .border1{
+    border:  solid 3px red;
+    
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1em;
+    color: #1A1A1A;
+}
+h1{
+    text-align: center;
+}
+
+.header-img{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-image:url(../images/landing.jpg);
+    height: 500px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    display: inline-block;
+    justify-content: left;
+}
+
+.header-img h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img p{
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* */
+#container0 {
+    height: 20rem;
+    margin: 1rem 0;
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+  }
+
+.logo-spotify img{
+    width: 160px;
+    padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+    width: 400px;
+}
+
+/* Header */
+header > div {
+    /* position: fixed; */
+
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .item-drown{
+    display: flex;
+    flex-direction: column;
+  }
+
+.container-section{
+    height: 20rem;
+    margin: 1rem 0;
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+    align-content: center;
+    gap: 20px;
+}
+
+  #section-1 h1{
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+  .item {
+    padding: 1rem;
+    text-align: center;
+    margin: 0.75rem;
+    flex: 1;
+  }
+
+  .item > img{
+    width: 160px;
+    padding: 20px;
+}
+
+.section-3{
+    background-color: #00B172;
+   
+}
+
+.text-underline h2{
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.text-color{
+    color: white;
+}
+
+.kanye-image img{
+    width: 60%;
+    padding: 20px;
+}
+
+
+.item-2 > img{
+    width: 20%;
+    padding: 200px;
+}
+
+
+.container-3 {
+    height: 40rem;
+    margin: 1rem 0;
+    /* Flex Properties */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px; 
+  }
+
+ 
